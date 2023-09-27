@@ -5,7 +5,7 @@ function Signup() {
   const [password, setPassword] = useState('');
 
   const handleSignup = () => {
-    // You can handle signup logic here, e.g., send data to the backend
+
     console.log('Username:', username);
     console.log('Password:', password);
   };
