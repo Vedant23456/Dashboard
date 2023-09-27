@@ -5,7 +5,7 @@ function Login() {
   const [password, setPassword] = useState('');
 
   const handleLogin = () => {
-    // You can handle login logic here, e.g., send data to the backend
+   
     console.log('Email:', email);
     console.log('Password:', password);
   };
