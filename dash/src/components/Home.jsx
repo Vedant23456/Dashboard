@@ -5,7 +5,7 @@ function Home() {
   const [newItem, setNewItem] = useState('');
   const [editItem, setEditItem] = useState(null);
 
-  // Dummy data for the CRUD app
+
   const initialData = [
     { id: 1, text: 'Item 1' },
     { id: 2, text: 'Item 2' },
